@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base font size for rem calculation */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: Georgia, serif;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  margin: 0 15% 0;
+  background: #d2dc9d url(images/blackgoose.png) no-repeat center 100px fixed;
+}
+
+header {
+  margin-top: 0;
+  padding: 3rem 1rem 2rem 1rem;
+  text-align: center;
+  /*background: rgba(255, 255, 255, 0.5) url(images/purpledot.png) repeat-x center top;*/
+  /*background: url(images/purpledot.png) center top repeat-x;*/
+  background: 
+    url(images/purpledot.png) left top repeat-y,
+    url(images/purpledot.png) right top repeat-y,
+    url(images/gooseshadow.png) 90% bottom no-repeat;
+  background-color: rgba(255,255,255,.5);  
+}
+
+a {
+  text-decoration: none;
+  color: #993399
+}
+
+a:visited {
+  color: #937393;
+}
+
+a:hover,
+a:focus {
+  color: #c700f2;
+  background-color: #ffffff;
+}
+
+a:active {
+  color: #ff00ff;
+  background-color: #ffffff;
+}
+
+h1 {
+  font: bold 1.5rem Georgia, serif;
+  text-shadow: 0.1rem 0.1rem 0.2rem gray;
+  color: #993399;
+}
+
+h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  text-align: center;
+  color: #cc6600;
+}
+
+dt {
+  font-weight: bold;
+}
+
+strong {
+  font-style: italic;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#info p {
+  font-style: italic;
+}
+
+.price {
+  font-family: Georgia, serif;
+  font-style: italic;
+}
+
+p.warning,
+sup {
+  font-size: 0.875rem;
+}
+
+.label {
+  font-weight: bold;
+  font-variant: small-caps;
+  font-style: normal;
+}
+
+h2+p {
+  text-align: center;
+  font-style: italic;
+}
