@@ -1,0 +1,20 @@
+/* =======================
+   Global Styles
+======================= */
+
+/* Apply universal reset and box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base HTML styles */
+html {
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
