@@ -23,13 +23,17 @@
 <body class="bg-gray-100 text-gray-800 font-[Raleway]">
 
     <!-- Header -->
-    <header class="" style="background-image: url('header.jpg');">
+    <header class="fixed top-0 right-0 left-0 z-50 relative bg-cover bg-center"
+        style="background-image: url('header.jpg');">
 
-        <div class="">
+        <div class="container mx-auto p-4 flex justify-between items-center text-yellow-400">
             <!-- Logo -->
-            <div class="">
+            <div class="font-semibold text-xl md:text-2xl">
                 My Company
             </div>
+
+
+
 
             <!-- Mobile Hamburger Menu Button -->
             <!-- This button is only visible on small screens (hidden on md and larger) -->
@@ -40,44 +44,50 @@
             </button>
 
             <!-- Nav Links (desktop) -->
-            <nav id="nav-menu" class="" role="navigation">
-                <a href="#" class="">Home</a>
-                <a href="#" class="">Our Clients</a>
-                <a href="#" class="">About Us</a>
-                <a href="#" class="">Careers</a>
+            <nav id="nav-menu" class="hidden md:flex gap-4 text-sm md:text-base" role="navigation">
+                <a href="#"
+                    class="bg-blue-400 hover:bg-white/70 text-black py-2 px-4 rounded transition duration-200">Home</a>
+                <a href="#"
+                    class="bg-white/50 hover:bg-white/70 text-black py-2 px-4 rounded transition duration-200">Our
+                    Clients</a>
+                <a href="#"
+                    class="bg-white/50 hover:bg-white/70 text-black py-2 px-4 rounded transition duration-200">About
+                    Us</a>
+                <a href="#"
+                    class="bg-white/50 hover:bg-white/70 text-black py-2 px-4 rounded transition duration-200">Careers</a>
             </nav>
         </div>
 
         <!-- Mobile Nav Menu -->
-        <div id="mobile-menu" class="md:hidden hidden font-semibold px-4 pb-4 space-y-2" role="navigation">
-            <a href="#" class="">Home</a>
-            <a href="#" class="">Our Clients</a>
-            <a href="#" class="">About Us</a>
-            <a href="#" class="">Careers</a>
+        <div id="mobile-menu" class="md:hidden font-semibold px-4 pb-4 space-y-2" role="navigation">
+            <a href="#" class="block hover:text-white">Home</a>
+            <a href="#" class="block hover:text-white">Our Clients</a>
+            <a href="#" class="block hover:text-white">About Us</a>
+            <a href="#" class="block hover:text-white">Careers</a>
         </div>
 
         <!-- Hero Text -->
-        <div class="">
-            <h1 class="">We do great things</h1>
-            <h2 class="">Donec pulvinar ullamcorper metus
+        <div class="mt-12 text-center text-white">
+            <h1 class="text-5xl font-semibold">We do great things</h1>
+            <h2 class="text-3xl mt-4">Donec pulvinar ullamcorper metus
             </h2>
-            <a href="#" class="">Learn
+            <a href="#" class="inline-block bg-blue-400 text-black py-2 px-6 my-6 rounded hover:bg-white/50 ">Learn
                 More</a>
         </div>
     </header>
     <main>
-        <section id="info" class="">
-            <div class="">
-                <div class="">
-                    <h2 class="">
+        <section id="info" class="scroll-mt-20 py-16">
+            <div class="container mx-auto px-4 ">
+                <div class="text-center mb-12 ">
+                    <h2 class="text-3xl font-semibold">
                         Graeco
                         feugiat intellegam at vix</h2>
                 </div>
 
-                <div class="">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <!-- Card 1 -->
                     <div>
-                        <p class="">
+                        <p class="text-base mb-4">
                             Mei te possit instructior, idque
                             delenit qui et, dicit ludus
                             commune vix ad. Ea modo dicam
@@ -92,25 +102,62 @@
                             fastidii mandamus intellegam,
                             error consul ut per.
                         </p>
-                        <a href="#" class="">More info</a>
+                        <a href="#" class="inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-400">More
+                            info</a>
 
                     </div>
                     <!-- Card 2 -->
+                    <div>
+                        <p class="text-base mb-4">
+                            Mei te possit instructior, idque
+                            delenit qui et, dicit ludus
+                            commune vix ad. Ea modo dicam
+                            cetero mel, case disputationi at
+                            est. Ad nam adipisci dignissim
+                            posidonium, eius reque
+                            temporibus ne mea. Vero antiopam
+                            ea vim. Ei timeam electram vix.
+                            Eam at tollit erroribus, ea eum
+                            idque legere epicuri. Sed quot
+                            legere minimum cu, ex mei
+                            fastidii mandamus intellegam,
+                            error consul ut per.
+                        </p>
+                        <a href="#" class="inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-400">More
+                            info</a>
 
+                    </div>
                     <!-- Card 3 -->
-
-
+                    <div>
+                        <p class="text-base mb-4">
+                            Mei te possit instructior, idque
+                            delenit qui et, dicit ludus
+                            commune vix ad. Ea modo dicam
+                            cetero mel, case disputationi at
+                            est. Ad nam adipisci dignissim
+                            posidonium, eius reque
+                            temporibus ne mea. Vero antiopam
+                            ea vim. Ei timeam electram vix.
+                            Eam at tollit erroribus, ea eum
+                            idque legere epicuri. Sed quot
+                            legere minimum cu, ex mei
+                            fastidii mandamus intellegam,
+                            error consul ut per.
+                        </p>
+                        <a href="#" class="inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-400">More
+                            info</a>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
     <!-- Footer -->
-    <footer class="">
-        <div class="">
-            <div class="">
+    <footer class="bg-gray-800 text-white py-8 ">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col sm:flex-row justify-between gap-6">
                 <!-- Newsletter Form -->
-                <div class="">
+                <div class="sm:w-1/2">
                     <form>
                         <label for="exampleEmailInput" class="text-sm">Sign up for our
                             newsletter</label>
@@ -125,8 +172,8 @@
                 </div>
 
                 <!-- Footer Text -->
-                <div class="">
-                    <p>© Your Name Goes Here,
+                <div class="md:w-1/2 text-sm md:text-right text-center mt-4 md:mt-0">
+                    <p>© Chris Hull,
                         <!-- Placeholder where the current year will be filled in with JavaScript. -->
                         <span id="year"></span>.
                     </p>
