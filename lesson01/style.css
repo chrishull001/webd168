@@ -1,13 +1,13 @@
-*{
-font-family: Verdana,sans-serif;
+* {
+  font-family: Verdana, sans-serif;
 }
 
-body{
-margin: 15px;
+body {
+  margin: 15px;
 }
 
-ul{
-list-style: square;
+ul {
+  list-style: square;
 }
 
 .column1 {
