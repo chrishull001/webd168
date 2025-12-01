@@ -1,0 +1,19 @@
+* {
+  font-family: Verdana, sans-serif;
+}
+
+
+caption {
+    caption-side: top;
+}
+
+.table-dark {
+    --bs-table-bg: rgb(13, 202, 240)
+}
+
+@media (max-width: 768px) {
+    section {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
