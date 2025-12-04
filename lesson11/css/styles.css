@@ -40,13 +40,11 @@ img {
   opacity: .5;
   /* border-color: lightblue; */
   border-style: solid;
-  border-width: 2rem;
+  border-width: .25rem;
   transition: 0.75s ease-in-out;
 }
 
 img:hover {
   border-color: lightblue;
-  border-style: solid;
-  border-width: .25rem;
   opacity: 1;
 }
